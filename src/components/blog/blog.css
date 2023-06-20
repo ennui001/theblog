@@ -1,0 +1,27 @@
+.theblog__blog_container{
+    background-image: url(../../assets/blog__bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.theblog__blog_text1 h1{
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    padding: 9rem;
+    font-family:Arial;
+}
+
+.theblog__blog_container p{
+    color: white;
+    text-align: center;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.09em;
+    font-family: Arial;
+    font-size: 0.8rem;
+    padding: 1rem;
+    font-family: var(--font-family);
+    line-height: 30px;
+}

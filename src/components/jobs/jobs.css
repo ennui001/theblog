@@ -1,0 +1,41 @@
+.theblog__container_jobs{
+    padding: 5px;
+}
+
+.theblog__container_jobs h1{
+    background-color: black;
+    color: white;
+    font-size: 1.6rem;
+    padding: 8px;
+}
+
+.theblog__container_contents{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    line-height: 2rem;
+}
+
+.theblog__container_contents div{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.theblog__container_contents button{
+    padding: 9px;
+    background-color: #000000;
+    border-radius: 5px;
+    color: white;
+    float: right;
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media  screen and (max-width: 500px){
+    .theblog__container_contents button{
+       float:none;
+       width: 50%;
+    }
+}
